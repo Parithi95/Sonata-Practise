@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #personal-details {
+        
+            width: 500px;
+            /* border: 2px; */
+            margin-left: 50px;
+        }
+       
+
+        td {
+            margin: auto;
+            padding: 20px;
+            width: 100px;
+            border: none;
+            
+        }
+        #contact-details{
+            
+            width: 500px;
+            /* border: 2px; */
+            margin-left: 50px;
+        }
+    </style>
+    <form action="">
+        <h2>Personal Details</h2>
+        <table id="personal-details" border="1" style="background-color: antiquewhite;">
+            <tr>
+                <td>I would like to learn </td>
+                <td style="width: 200px;">
+                    <input type="radio" name="courses" value="html" checked>HTML
+                    <input type="radio" name="courses" value="css">CSS
+                    <input type="radio" name="courses" value="js">JAVA SCRIPT
+                </td>
+            </tr>
+            <tr>
+                <td>My hobbies are</td>
+                <td><input type="checkbox" name="hobbies[]" value="hockey">Hockey
+                    <input type="checkbox" name="hobbies[]" value="tennis">Tennis
+                    <input type="checkbox" name="hobbies[]" value="football">Football
+                </td>
+            </tr>
+
+            <tr>
+                <td>City </td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="select city">Select city</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="trichy">Trichy</option>
+                        <option value="madurai">Madurai</option>
+                        <option value="theni">Theni</option>
+                    </select>
+                </td>
+            </tr>
+
+        </table>
+
+        <h2>Contact Details</h2>
+
+        <table id="contact-details" border="1" style="background-color: antiquewhite;">
+            <tr>
+                <td>Color</td>
+                <td><input type="color" name="color" id="color"></td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td> <input type="date" name="date" id="mydate"></td>
+            </tr>
+            <tr>
+                <td>Date & Time</td>
+                <td><input type="datetime" id="datetime"></td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td><input type="time" id="time"></td>
+            </tr>
+            <tr>
+                <td>Number</td>
+                <td><input type="number" id="number" max="100" min="10"></td>
+            </tr>
+            <tr>
+                <td>Mail id</td>
+                <td> <input type="email" id="myemail" required></td>
+            </tr>
+            <tr>
+                <td>Range</td>
+                <td><input type="range" id="range" min="10" max="20"></td>
+            </tr>
+            <tr>
+                <td>Tel</td>
+                <td><input type="tel" id="tel" placeholder="+91 xxxxx xxxxx" size="15%"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

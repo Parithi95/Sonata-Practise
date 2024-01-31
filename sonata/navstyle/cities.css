@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landings {
+    background-image: url(https://images.pexels.com/photos/70842/hot-pepper-pepper-fire-food-70842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 1em;
+}
+
+.landings a {
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.maintext>div {
+    color: white;
+}
+
+header {
+    display: flex;
+    padding: 10px 200px;
+}
+
+header a {
+    flex: 3
+}
+
+nav {
+    display: flex;
+    /* background-color: green; */
+    width: 300px;
+    align-items: center;
+}
+
+nav a:hover{
+    color: yellow;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+
+}
+.maintext .tagline1{
+    color: red;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.maintext .tagline2{
+    color: yellow;
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 15vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .8em;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+.menu{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    background:linear-gradient(to right,rgb(100,100,100),rgb(53,53,52));
+    color: white;
+}
+#menuheading, #locheading{
+    background:linear-gradient(to right,rgb(100,100,100),rgb(53,53,52));
+    color: red;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color:yellow;
+    font-size: 2em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8em;
+}
+.menu td:nth-child(1){
+    /* background-color:aquamarine; */
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row: span(2);
+}
+.locations{
+    background:linear-gradient(to right,rgb(100,100,100),rgb(53,53,52));
+    color: white;
+    display: flex;
+    
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+}
+.locations h2{
+    color: yellow;
+    margin-bottom: .8em;
+
+}

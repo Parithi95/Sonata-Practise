@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM PRACTISE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+    <center>
+    <form 
+        method="post"
+        enctype="multipart/form-data"
+        action="action.php">
+        <div>
+            <label for="username">Username : </label>
+            <input type="text" name="username" id="username"placeholder="Enter username" maxlength="15" >
+        </div>
+        <br>
+        <div>
+            <label for="pwd">Password : </label>
+            <input type="password" name="password" id="pwd" required placeholder="enter password" maxlength="8">
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="Login" value="Login">
+        </div>
+        <div>
+            <p>I would like to learn :</p>
+            <input type="radio" name="courses" value="html" checked>HTML
+            <input type="radio" name="courses" value="css">CSS
+            <input type="radio" name="courses" value="js">JAVA SCRIPT
+        </div>
+        <div>
+            <p>My hobbies are : </p>
+            <input type="checkbox" name="hobbies[]" value="hockey">Hockey
+            <input type="checkbox" name="hobbies[]" value="tennis">Tennis 
+            <input type="checkbox" name="hobbies[]" value="football">Football 
+        </div><br>
+        <div>
+           <p> <label for="city">City : </label></p>
+            <select name="city" id="city" >
+                <option value="select city" >Select city</option>
+                <option value="chennai">Chennai</option>
+                <option value="trichy">Trichy</option>
+                <option value="madurai">Madurai</option>
+                <option value="theni">Theni</option>
+            </select>
+        </div>
+        <div>
+            <i class="fa-solid fa-hotel"></i>
+            <label for="image">Images to upload:</label>
+            <input type="file" value="image" name="upload">
+        </div>
+        <div>
+           Color :  <input type="color" name="color" id="color"><br>
+           Date :  <input type="date" name="date" id="mydate"><br>
+           Date & Time :<input type="datetime" id="datetime"><br>
+           Time :  <input type="time" id="time"><br>
+           Number : <input type="number" id="number" max="100" min="10"><br>
+           Mail id : <input type="email" id="myemail" required><br>
+           Range : <input type="range" id="range" min="10" max="20"><br>
+           Tel : <input type="tel" id="tel" placeholder="+91 xxxxx xxxxx" size="15%"><br> <br>
+           Search : <input type="search" id="search" placeholder="Type here what you need to find" maxlength="20" size="35%"><br><br>
+           Url : <input type="url" id="myurl">
+        </div>
+
+        <label for="dropdown">Select a Fruit:</label>
+    <select id="dropdown" name="fruit">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+        <option value="grape">Grape</option>
+    </select>
+   
+
+    </form>
+   
+</center>
+    <ol type="">
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Kiwi</li>
+    </ol>
+    <p style="color:#f5adf5;background-color: #c1150e; font-family: Georgia, 'Times New Roman', Times, serif;"><span style="color: chocolate;font-size: 20px;font-family: 'Times New Roman', Times, serif;">Lorem</span> ipsum, dolor sit amet consectetur adipisicing elit. Molestias incidunt et, voluptates odit quod doloremque ipsa deleniti beatae provident voluptatum sit itaque perferendis quasi ex veritatis tempore quos nam excepturi.</p>
+    <ol type="" start="4">
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Kiwi</li>
+    </ol>
+    <ul>
+        <li> <a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.google.co.in/?&bih=730&biw=1536&hl=en">Google</a></li>
+    </ul>
+    <iframe src="formpractise.html" frameborder="2"></iframe><br><br>
+    <iframe src="formpractise.html" frameborder="2"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus" frameborder="2"></iframe>
+
+    <marquee style="color: blueviolet;" behavior="alternate" direction="right">html</marquee>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <body style="margin:0px;">
+        <table style="width:100%; border-collapse:collapse; font:14px Arial,sans-serif;">
+            <tr>
+                <td colspan="2" style="padding:10px 20px; background-color:#acb3b9;">
+                    <h1 style="font-size:24px;">Tutorial Republic</h1>
+                </td>
+            </tr>
+            <tr style="height:170px;">
+                <td style="width:20%; padding:20px; background-color:#d4d7dc; vertical-align: top;">
+                    <ul style="list-style:none; padding:0px; line-height:24px;">
+                        <li><a href="#" style="color:#333;">Home</a></li>
+                        <li><a href="#" style="color:#333;">About</a></li>
+                        <li><a href="#" style="color:#333;">Contact</a></li>
+                    </ul>
+                </td>
+                <td style="padding:20px; background-color:#f2f2f2; vertical-align:top;">
+                    <h2>Welcome to our site</h2>
+                    <p>Here you will learn how to create websites...</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding:5px; background-color:#acb3b9; text-align:center;">
+                    <p>copyright &copy; tutorialrepublic.com</p>
+                </td>
+            </tr>
+        </table>
+        <p id="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique quis saepe quaerat, impedit vitae dicta neque consequatur voluptatum nostrum, vel voluptas totam quidem praesentium sunt ex facere laudantium facilis distinctio!</p>
+        <h1 class="heading1"> India</h1>
+    </body>
+    </html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
+    
